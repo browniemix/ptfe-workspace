@@ -15,7 +15,7 @@ locals {
 }
 
 module "vm" {
-  source  = "https://github.com/browniemix/terraform-vsphere-vm"
+  source  = "https://tfe-nfcu.digitalinnovation.dev/john_b_nfcu1-org/vm/vsphere"
   version = "0.0.1"
 
   datacenter_name      = local.datacenter_name
